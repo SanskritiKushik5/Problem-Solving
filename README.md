@@ -10,5 +10,5 @@
 | Quick Sort     | O(n^2)        | O(nlogn)      | O(nlogn)      |
 | Heap Sort      | O(nlogn)      | O(nlogn)      | O(nlogn)      |
 | Stack          | O(1) - Push, Pop, Peep, Change                |
-| Queue          | O(n^2)        | O(n^2)        | O(n)          |
-| Circular Queue | O(n^2)        | O(n^2)        | O(n)          |
+| Queue          | O(1)          | O(1)          | O(1)          |
+| Circular Queue | O(1)          | O(1)          | O(1)          |
