@@ -11,6 +11,7 @@ public:
         next = NULL;
     }
 };
+
 void display(node* head){
     node* temp = head;
     while(temp!=NULL){
