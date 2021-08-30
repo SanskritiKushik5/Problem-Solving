@@ -3,8 +3,7 @@
 int trappingWater(int arr[], int n){
         int left[n];
  
-    // Right [i] contains height of tallest bar to
-    // the right of ith bar including itself
+    // Right [i] contains height of tallest bar to the right of ith bar including itself
     int right[n];
  
     // Initialize result
@@ -21,8 +20,7 @@ int trappingWater(int arr[], int n){
         right[i] = max(right[i + 1], arr[i]);
  
     // Calculate the accumulated water element by element
-    // consider the amount of water on i'th bar, the
-    // amount of water accumulated on this particular
+    // consider the amount of water on i'th bar, the amount of water accumulated on this particular
     // bar will be equal to min(left[i], right[i]) - arr[i] .
     for (int i = 0; i < n; i++)
         water += min(left[i], right[i]) - arr[i];
