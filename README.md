@@ -9,6 +9,6 @@
 | Merge Sort     | O(nlogn)      | O(nlogn)      | O(nlogn)      |
 | Quick Sort     | O(n^2)        | O(nlogn)      | O(nlogn)      |
 | Heap Sort      | O(nlogn)      | O(nlogn)      | O(nlogn)      |
-| Stack          | O(1) - Push, Pop            |
+| Stack          |   |      O(1) - Push, Pop     |               |
 | Queue          | O(1)          | O(1)          | O(1)          |
 | Circular Queue | O(1)          | O(1)          | O(1)          |
