@@ -20,7 +20,7 @@ public:
         q2 = temp;
     }
     int pop(){
-        q1.pop()
+        q1.pop();
         N--;
     }
     int top(){
