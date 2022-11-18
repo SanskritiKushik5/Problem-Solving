@@ -10,7 +10,7 @@ void heapsort(vector<int> &a)
     int n = a.size();
     for(int i=n/2-1; i>=0; i--)
         heapify(a, n, i);
-    for(int i=n; i>0; i--)
+    for(int i=n-1; i>0; i--)
     {
         swap(a[0], a[i]);
         heapify(a, i, 0);
@@ -25,7 +25,7 @@ void heapify(vector<int> &a, int n, int i)
         maxIdx = l;
     if(r<n && a[r]>a[maxIdx])
         maxIdx = r;
-    if(maxIdx != 1)
+    if(maxIdx != i)
     {
         swap(a[i], a[maxIdx]);
         heapify(a, n, maxIdx);
